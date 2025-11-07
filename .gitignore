@@ -1,0 +1,23 @@
+# ROS2/colcon
+build/
+install/
+log/
+# Editors
+.vscode/
+*.swp
+# Python
+__pycache__/
+*.pyc
+# CMake
+CMakeCache.txt
+CMakeFiles/
+# Large/binary (필요시 LFS로)
+*.bag*
+*.mp4
+*.mkv
+*.zip
+*.tar.gz
+# Secrets
+*.env
+.env*
+secrets*.yaml
